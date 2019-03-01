@@ -14,7 +14,7 @@ public class StockObserver implements Observer {
 		this.observerID = ++observerIDTracker;
 		
 		System.out.println("New Observer " + this.observerID);
-		stockGrabber.register(this);
+		this.stockGrabber.register(this);
 	}
 	
 	@Override

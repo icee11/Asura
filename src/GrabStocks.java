@@ -20,5 +20,7 @@ public class GrabStocks {
 		stockGrabber.setIBMPrice(197.00);
 		stockGrabber.setAaplPrice(677.60);
 		stockGrabber.setGoogPrice(676.40);
+		
+		stockGrabber.unregister(observer2);
 	}
 }
